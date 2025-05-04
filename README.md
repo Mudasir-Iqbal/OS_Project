@@ -10,8 +10,8 @@ A lightweight C project to lock/unlock files using Linux file permissions (`chmo
 - 🧱 Pure C project – no external libraries used
 
 ## 📂 Directory Structure
-file_locker/
 
+file_locker/
 ├── files/ # Test files for locking/unlocking
 
 ├── logs/ # Access logs go here
@@ -25,34 +25,55 @@ file_locker/
 ├── Makefile # For building the project
 
 
-## 🛠️ Build and Run
+## 🛠️ Build & Run (Linux)
+
+### 1. Clone the repository
+
+git clone https://github.com/Mudasir-Iqbal/OS_Project.git
+cd OS_Project
+
+### 2. Install dependencies (if needed)
+sudo apt update
+sudo apt install build-essential
+
+### 3. Compile the project
 make
-# Compile everything
+
+### 4. Run the executable
 ./filelocker
 
+# You'll be prompted to:
 
-🧪 Example Actions
+Enter the file name
+
+Choose to lock or unlock
+
+The action will be performed using chmod
+
+A log entry will be recorded in logs/log.txt
+
+# 🧪 Example Actions
 Lock a file: chmod 000
 
 Unlock a file: chmod 644
 
-Log example: [2025-05-03 17:20:00] Locked file: files/secret.txt
+ Log Example: [2025-05-03 17:20:00] Locked file: files/secret.txt
 
 💡 Use Cases
-Learn file permissions
+Learn Linux file permissions
 
-Create basic security tools
+Create basic file access control tools
 
-Teach OS concepts like chmod, fopen, and system logging
+Teach OS concepts like chmod, fopen, and system-level logging
 
 📄 License
 MIT
 
-
 🙋‍♂️ Author
 Mudasir
+GitHub: @Mudasir-Iqbal
 
 
 ---
 
-Would you like me to generate the full `README.md` file and prepare `.gitignore` or GitHub Actions for CI too?
+Would you like me to save and upload this as `README.md` so you can directly copy or push it to GitHub?
