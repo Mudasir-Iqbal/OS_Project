@@ -30,6 +30,7 @@ file_locker/
 ### 1. Clone the repository
 
 git clone https://github.com/Mudasir-Iqbal/OS_Project.git
+
 cd OS_Project
 
 ### 2. Install dependencies (if needed)
