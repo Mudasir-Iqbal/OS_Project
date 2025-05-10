@@ -1,3 +1,5 @@
+![graphviz](https://github.com/user-attachments/assets/6cc3cfba-f91f-4a55-9db3-88f05403cbed)
+
 # OS File Locker & Logger 🔐📝
 
 A lightweight C project to lock/unlock files using Linux file permissions (`chmod`) and log every action to a local file. Designed for learning OS-level file control, system programming, and `Makefile` compilation — all without using any external libraries.
