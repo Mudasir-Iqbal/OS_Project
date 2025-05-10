@@ -43,6 +43,11 @@ make
 ### 4. Run the executable
 ./filelocker
 
+### 🔧 Quick Start (One-liner)
+
+```bash
+git clone https://github.com/Mudasir-Iqbal/OS_Project.git && cd OS_Project/file_locker/ && make && ./filelocker
+
 # You'll be prompted to:
 
 Enter the file name
