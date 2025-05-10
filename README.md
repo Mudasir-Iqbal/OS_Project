@@ -24,7 +24,7 @@ file_locker/
 
 ├── Makefile # For building the project
 
-
+# METHOD 1
 ## 🛠️ Build & Run (Linux)
 
 ### 1. Clone the repository
@@ -43,11 +43,12 @@ make
 ### 4. Run the executable
 ./filelocker
 
+# METHOD 2
 ### 🔧 Quick Start (One-liner)
-
+copy this command 
 ```bash
 git clone https://github.com/Mudasir-Iqbal/OS_Project.git && cd OS_Project/file_locker/ && make && ./filelocker
-
+```
 # You'll be prompted to:
 
 Enter the file name
