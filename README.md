@@ -78,6 +78,10 @@ Create basic file access control tools
 
 Teach OS concepts like chmod, fopen, and system-level logging
 
+![graphviz (3)](https://github.com/user-attachments/assets/37d29fe6-8b5e-43a1-9ce5-f987439b265b)
+
+
+
 📄 License
 MIT
 
