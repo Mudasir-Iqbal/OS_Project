@@ -26,6 +26,9 @@ file_locker/
 
 ├── Makefile # For building the project
 
+![graphviz (1)](https://github.com/user-attachments/assets/99fd4a8d-0891-4a2d-8a08-39734990a38e)
+
+
 # METHOD 1
 ## 🛠️ Build & Run (Linux)
 
