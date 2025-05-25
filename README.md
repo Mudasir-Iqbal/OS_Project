@@ -1,3 +1,5 @@
+![graphviz](https://github.com/user-attachments/assets/6cc3cfba-f91f-4a55-9db3-88f05403cbed)
+
 # OS File Locker & Logger 🔐📝
 
 A lightweight C project to lock/unlock files using Linux file permissions (`chmod`) and log every action to a local file. Designed for learning OS-level file control, system programming, and `Makefile` compilation — all without using any external libraries.
@@ -24,7 +26,10 @@ file_locker/
 
 ├── Makefile # For building the project
 
+![graphviz (1)](https://github.com/user-attachments/assets/99fd4a8d-0891-4a2d-8a08-39734990a38e)
 
+
+# METHOD 1
 ## 🛠️ Build & Run (Linux)
 
 ### 1. Clone the repository
@@ -43,6 +48,12 @@ make
 ### 4. Run the executable
 ./filelocker
 
+# METHOD 2
+### 🔧 Quick Start (One-liner)
+copy this command 
+```bash
+git clone https://github.com/Mudasir-Iqbal/OS_Project.git && cd OS_Project/file_locker/ && make && ./filelocker
+```
 # You'll be prompted to:
 
 Enter the file name
@@ -66,6 +77,10 @@ Learn Linux file permissions
 Create basic file access control tools
 
 Teach OS concepts like chmod, fopen, and system-level logging
+
+![graphviz (3)](https://github.com/user-attachments/assets/37d29fe6-8b5e-43a1-9ce5-f987439b265b)
+
+
 
 📄 License
 MIT
